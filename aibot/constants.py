@@ -1,4 +1,4 @@
-from website.models import InstallationState, RepoState
+from .models import InstallationState, RepoState
 
 # Extensions for files that should generally be processed as text.
 # This includes source code, web files, config files, and documentation.

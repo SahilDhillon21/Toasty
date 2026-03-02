@@ -4,7 +4,7 @@ from typing import Any, Dict, List, Optional
 from django.conf import settings
 from google.genai import types
 
-from website.aibot.clients import g_client
+from .clients import g_client
 
 logger = logging.getLogger(__name__)
 
