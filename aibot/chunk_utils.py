@@ -9,8 +9,8 @@ from typing import List, Set, Tuple
 import yaml
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-from website.aibot.types import ChunkType
-from website.aibot.utils import approximate_token_count_char
+from aibot.types import ChunkType
+from aibot.utils import approximate_token_count_char
 
 logger = logging.getLogger(__name__)
 
